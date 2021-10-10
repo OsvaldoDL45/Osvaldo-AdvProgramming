@@ -28,7 +28,7 @@ console.log(Boolean(" ")); //true por un espacio
     console.log(Boolean(false));
 
 //TRUE VALUES!
-    console.log(Boolean("Cesar"));
+    console.log(Boolean("Osvaldo"));
     console.log(Boolean(5));
     console.log(Boolean({key:"5"}));
     console.log(Boolean( [] ));
@@ -36,14 +36,13 @@ console.log(Boolean(" ")); //true por un espacio
 
 //When is a NaN
     console.log( isNaN(Number("5x")));
-
 //TypeCasting Expli Methods
     console.log(Number.parseInt(myString));
     console.log(Number.parseFloat(myString));
 
 //TypeCasting Cohersion implicit
-var result = "Hola Mundo"; //="Hola" + "Mundo"
-var resultNumberString = 2 + "Hola"; //Suma de un número a un string
-var resultNumberRemainder = 2 - "22"; //JavaScript toma las decisiones sin que el usuario se de cuenta* 
-console.log(resultNumberString);
-console.log(resultNumberRemainder);
+    var result = "Hola Mundo"; //="Hola" + "Mundo"
+    var resultNumberString = 2 + "Hola"; //Suma de un número a un string
+    var resultNumberRemainder = 2 - "22"; //JavaScript toma las decisiones sin que el usuario se de cuenta* 
+    console.log(resultNumberString);
+    console.log(resultNumberRemainder);
